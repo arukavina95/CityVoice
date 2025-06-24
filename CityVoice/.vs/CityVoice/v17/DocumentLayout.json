@@ -3,40 +3,92 @@
   "WorkspaceRootPath": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|c:\\users\\antun\\source\\repos\\cityvoice\\cityvoice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|c:\\users\\antun\\source\\repos\\cityvoice\\cityvoice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|c:\\users\\antun\\source\\repos\\cityvoice\\cityvoice\\models\\problem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|solutionrelative:models\\problem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|c:\\users\\antun\\source\\repos\\cityvoice\\cityvoice\\dtos\\createnotedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|solutionrelative:dtos\\createnotedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|c:\\users\\antun\\source\\repos\\cityvoice\\cityvoice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|c:\\users\\antun\\source\\repos\\cityvoice\\cityvoice\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|c:\\users\\antun\\source\\repos\\cityvoice\\cityvoice\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|solutionrelative:dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|c:\\users\\antun\\source\\repos\\cityvoice\\cityvoice\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|solutionrelative:models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|c:\\users\\antun\\source\\repos\\cityvoice\\cityvoice\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|solutionrelative:services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|c:\\users\\antun\\source\\repos\\cityvoice\\cityvoice\\controllers\\problemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|solutionrelative:controllers\\problemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|c:\\users\\antun\\source\\repos\\cityvoice\\cityvoice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|c:\\users\\antun\\source\\repos\\cityvoice\\cityvoice\\dtos\\createproblemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|solutionrelative:dtos\\createproblemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|c:\\users\\antun\\source\\repos\\cityvoice\\cityvoice\\models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|solutionrelative:models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|c:\\users\\antun\\source\\repos\\cityvoice\\cityvoice\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|solutionrelative:dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|c:\\users\\antun\\source\\repos\\cityvoice\\cityvoice\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|solutionrelative:dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|c:\\users\\antun\\source\\repos\\cityvoice\\cityvoice\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|c:\\users\\antun\\source\\repos\\cityvoice\\cityvoice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|c:\\users\\antun\\source\\repos\\cityvoice\\cityvoice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|c:\\users\\antun\\source\\repos\\cityvoice\\cityvoice\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|solutionrelative:dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|c:\\users\\antun\\source\\repos\\cityvoice\\cityvoice\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|c:\\users\\antun\\source\\repos\\cityvoice\\cityvoice\\controllers\\problemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|solutionrelative:controllers\\problemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|c:\\users\\antun\\source\\repos\\cityvoice\\cityvoice\\data\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|solutionrelative:data\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|c:\\users\\antun\\source\\repos\\cityvoice\\cityvoice\\dtos\\notedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|solutionrelative:dtos\\notedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|c:\\users\\antun\\source\\repos\\cityvoice\\cityvoice\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|solutionrelative:dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|c:\\users\\antun\\source\\repos\\cityvoice\\cityvoice\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|c:\\users\\antun\\source\\repos\\cityvoice\\cityvoice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|c:\\users\\antun\\source\\repos\\cityvoice\\cityvoice\\dtos\\createproblemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|solutionrelative:dtos\\createproblemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A21CAFD0-7A91-4350-AE13-7E134271503A}|CityVoice.csproj|c:\\users\\antun\\source\\repos\\cityvoice\\cityvoice\\controllers\\problemtypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,13 +118,110 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateNoteDto.cs",
+              "DocumentMoniker": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\DTOs\\CreateNoteDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CreateNoteDto.cs",
+              "ToolTip": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\DTOs\\CreateNoteDto.cs",
+              "RelativeToolTip": "DTOs\\CreateNoteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:45:07.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T11:26:14.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Status.cs",
+              "DocumentMoniker": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\Models\\Status.cs",
+              "RelativeDocumentMoniker": "Models\\Status.cs",
+              "ToolTip": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\Models\\Status.cs",
+              "RelativeToolTip": "Models\\Status.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T11:26:13.674Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Problem.cs",
+              "DocumentMoniker": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\Models\\Problem.cs",
+              "RelativeDocumentMoniker": "Models\\Problem.cs",
+              "ToolTip": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\Models\\Problem.cs",
+              "RelativeToolTip": "Models\\Problem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T11:26:12.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Models\\Role.cs",
+              "ToolTip": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\Models\\Role.cs",
+              "RelativeToolTip": "Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T10:57:27.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\UserDto.cs",
+              "ToolTip": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "DTOs\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T10:57:20.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-12T09:15:37.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA2wDsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T07:23:01.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAmwI4AAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-04T08:13:44.798Z",
               "EditorCaption": ""
@@ -80,19 +229,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAcwFcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T07:30:37.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-02T12:50:24.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\Services\\IAuthService.cs",
               "RelativeDocumentMoniker": "Services\\IAuthService.cs",
               "ToolTip": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\Services\\IAuthService.cs",
               "RelativeToolTip": "Services\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T08:29:06.464Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T08:29:06.464Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 16,
+              "Title": "ApplicationDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\Data\\ApplicationDbContextFactory.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\Data\\ApplicationDbContextFactory.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T07:23:16.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvy0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T07:30:27.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "RegisterDto.cs",
               "DocumentMoniker": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\DTOs\\RegisterDto.cs",
               "RelativeDocumentMoniker": "DTOs\\RegisterDto.cs",
@@ -100,90 +296,35 @@
               "RelativeToolTip": "DTOs\\RegisterDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T08:28:53.583Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\Services\\AuthService.cs",
-              "RelativeToolTip": "Services\\AuthService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T07:30:37.298Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "Controllers\\UsersController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T07:30:27.99Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CreateProblemDto.cs",
-              "DocumentMoniker": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\DTOs\\CreateProblemDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\CreateProblemDto.cs",
-              "ToolTip": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\DTOs\\CreateProblemDto.cs",
-              "RelativeToolTip": "DTOs\\CreateProblemDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T12:56:46.597Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-02T12:50:32.238Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-02T12:50:24.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T08:28:53.583Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "ProblemTypesController.cs",
-              "DocumentMoniker": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\Controllers\\ProblemTypesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProblemTypesController.cs",
-              "ToolTip": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\Controllers\\ProblemTypesController.cs",
-              "RelativeToolTip": "Controllers\\ProblemTypesController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T12:41:28.624Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-12T07:23:33.709Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 17,
+              "Title": "NoteDto.cs",
+              "DocumentMoniker": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\DTOs\\NoteDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\NoteDto.cs",
+              "ToolTip": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\DTOs\\NoteDto.cs",
+              "RelativeToolTip": "DTOs\\NoteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T07:23:38.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "ProblemsController.cs",
               "DocumentMoniker": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\Controllers\\ProblemsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProblemsController.cs",
@@ -191,8 +332,67 @@
               "RelativeToolTip": "Controllers\\ProblemsController.cs",
               "ViewState": "AgIAAO0AAAAAAAAAAAAgwAsBAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T12:39:06.467Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T12:39:06.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\DTOs\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\LoginResponseDto.cs",
+              "ToolTip": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\DTOs\\LoginResponseDto.cs",
+              "RelativeToolTip": "DTOs\\LoginResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T07:23:36.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T07:23:22.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreateProblemDto.cs",
+              "DocumentMoniker": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\DTOs\\CreateProblemDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CreateProblemDto.cs",
+              "ToolTip": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\DTOs\\CreateProblemDto.cs",
+              "RelativeToolTip": "DTOs\\CreateProblemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T12:56:46.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-02T12:50:32.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProblemTypesController.cs",
+              "DocumentMoniker": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\Controllers\\ProblemTypesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProblemTypesController.cs",
+              "ToolTip": "C:\\Users\\antun\\source\\repos\\CityVoice\\CityVoice\\Controllers\\ProblemTypesController.cs",
+              "RelativeToolTip": "Controllers\\ProblemTypesController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T12:41:28.624Z"
             }
           ]
         }

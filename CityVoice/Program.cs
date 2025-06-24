@@ -67,7 +67,7 @@ builder.Services.AddSwaggerGen(c => // Promijeni u c => { ... }
 builder.Services.AddScoped<IAuthService, AuthService>(); // Registriraj AuthService kao IAuthService
 
 
-// ...
+
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
