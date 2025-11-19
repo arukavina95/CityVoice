@@ -112,7 +112,7 @@ app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
     c.SwaggerEndpoint("/swagger/v1/swagger.json", "CityVoice API V1");
-    c.RoutePrefix = "swagger";  // <-- ključ za Railway
+    c.RoutePrefix = "swagger";  // <-- ključ za Railwayss
 });
 
 // ROOT ENDPOINT — Railway needs this
