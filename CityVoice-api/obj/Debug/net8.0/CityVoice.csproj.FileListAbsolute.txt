@@ -296,10 +296,10 @@ C:\Users\antun\source\repos\CityVoice\CityVoice-api\obj\Debug\net8.0\staticwebas
 C:\Users\antun\source\repos\CityVoice\CityVoice-api\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\antun\source\repos\CityVoice\CityVoice-api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\antun\source\repos\CityVoice\CityVoice-api\obj\Debug\net8.0\swae.build.ex.cache
-C:\Users\antun\source\repos\CityVoice\CityVoice-api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\antun\source\repos\CityVoice\CityVoice-api\obj\Debug\net8.0\CityVoice.csproj.Up2Date
 C:\Users\antun\source\repos\CityVoice\CityVoice-api\obj\Debug\net8.0\CityVoice.dll
 C:\Users\antun\source\repos\CityVoice\CityVoice-api\obj\Debug\net8.0\refint\CityVoice.dll
 C:\Users\antun\source\repos\CityVoice\CityVoice-api\obj\Debug\net8.0\CityVoice.pdb
 C:\Users\antun\source\repos\CityVoice\CityVoice-api\obj\Debug\net8.0\CityVoice.genruntimeconfig.cache
 C:\Users\antun\source\repos\CityVoice\CityVoice-api\obj\Debug\net8.0\ref\CityVoice.dll
+C:\Users\antun\source\repos\CityVoice\CityVoice-api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
