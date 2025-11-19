@@ -13,34 +13,80 @@ const statusStyles: Record<string, string> = {
   'Odbijena': 'bg-gray-200 text-gray-700',
 };
 
+const rawMediaBase =
+  (import.meta.env.VITE_FILES_BASE_URL ?? import.meta.env.VITE_API_ORIGIN ?? '').trim();
+const mediaBase = rawMediaBase.endsWith('/') ? rawMediaBase.slice(0, -1) : rawMediaBase;
+
+const resolveImageUrl = (imageUrl: string): string => {
+  if (imageUrl.startsWith('http')) {
+    return imageUrl;
+  }
+
+  const normalizedPath = imageUrl.startsWith('/') ? imageUrl : `/${imageUrl}`;
+  return mediaBase ? `${mediaBase}${normalizedPath}` : normalizedPath;
+};
+
 export const ProblemCard: React.FC<ProblemCardProps> = ({ problem, onDetails }) => {
   return (
-    <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 transform hover:scale-[1.03] flex flex-col overflow-hidden">
-      {problem.imageUrl && (
-        <img
-          src={problem.imageUrl.startsWith('http') ? problem.imageUrl : `http://192.168.1.74:5088${problem.imageUrl}`}
-          alt={problem.title}
-          className="w-full h-48 object-cover rounded-t-lg"
-        />
-      )}
-      <div className="flex-1 flex flex-col p-5">
-        <h2 className="text-lg font-bold text-gray-800 mb-1 line-clamp-1">{problem.title}</h2>
-        <p className="text-gray-600 mb-3 line-clamp-2 flex-1">{problem.description}</p>
-        <div className="flex flex-wrap gap-2 text-xs mb-2">
-          <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded">{problem.problemTypeName}</span>
-          <span className={`px-2 py-1 rounded-full font-semibold ${statusStyles[problem.statusName] || 'bg-gray-100 text-gray-700'}`}>{problem.statusName}</span>
+    <article className="group relative flex h-full flex-col overflow-hidden rounded-3xl border border-white/60 bg-white/80 shadow-lg shadow-slate-900/5 transition hover:-translate-y-1 hover:shadow-soft-xl dark:border-slate-700/70 dark:bg-slate-900/70">
+      <div className="relative h-48 overflow-hidden">
+        {problem.imageUrl ? (
+          <img
+            src={resolveImageUrl(problem.imageUrl)}
+            alt={problem.title}
+            className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+          />
+        ) : (
+          <div className="flex h-full w-full items-center justify-center bg-slate-100 text-slate-400">
+            Nema fotografije
+          </div>
+        )}
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-900/65 via-slate-900/10 to-transparent" />
+        <div className="absolute left-4 top-4 flex items-center gap-2">
+          <span className="rounded-full bg-white/90 px-3 py-1 text-[11px] font-semibold uppercase tracking-wide text-slate-700">
+            {problem.problemTypeName}
+          </span>
+          <span
+            className={`rounded-full px-3 py-1 text-[11px] font-semibold uppercase tracking-wide ${
+              statusStyles[problem.statusName] || 'bg-gray-100 text-gray-700'
+            }`}
+          >
+            {problem.statusName}
+          </span>
         </div>
-        <div className="mt-auto text-xs text-gray-500 space-y-1">
-          <p><span className="font-medium">Reporter:</span> {problem.reporterUsername}</p>
-          <p><span className="font-medium">Reported At:</span> {new Date(problem.reportedAt).toLocaleDateString()} {new Date(problem.reportedAt).toLocaleTimeString()}</p>
+      </div>
+
+      <div className="flex flex-1 flex-col gap-4 p-6">
+        <div>
+          <h2 className="text-lg font-semibold text-slate-900 line-clamp-1">{problem.title}</h2>
+          <p className="mt-2 text-sm text-slate-600 line-clamp-3">{problem.description}</p>
         </div>
+
+        <div className="mt-auto space-y-2 text-xs text-slate-500">
+          <p>
+            <span className="font-semibold text-slate-600">Prijavio:</span> {problem.reporterUsername}
+          </p>
+          <p>
+            <span className="font-semibold text-slate-600">Prijavljeno:</span>{' '}
+            {new Date(problem.reportedAt).toLocaleDateString('hr-HR', {
+              day: '2-digit',
+              month: 'short',
+              year: 'numeric',
+            })}{' '}
+            {new Date(problem.reportedAt).toLocaleTimeString('hr-HR', {
+              hour: '2-digit',
+              minute: '2-digit',
+            })}
+          </p>
+        </div>
+
         <button
-          className="mt-4 w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded transition"
+          className="inline-flex w-full items-center justify-center rounded-full bg-slate-900 px-5 py-2 text-sm font-semibold text-white shadow-md transition hover:bg-slate-700"
           onClick={() => onDetails(problem.id)}
         >
-          Vidi Detalje
+          Vidi detalje
         </button>
       </div>
-    </div>
+    </article>
   );
-}; 
+};

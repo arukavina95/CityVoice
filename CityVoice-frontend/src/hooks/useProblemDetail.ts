@@ -1,5 +1,5 @@
 import { useState, useCallback, useEffect } from 'react';
-import axios from 'axios';
+import api from '../api/axios';
 import type { ProblemDto } from '../types/problem';
 
 interface Note {
@@ -28,8 +28,8 @@ export const useProblemDetail = (problemId: number): UseProblemDetailResult => {
             setIsLoading(true);
             setError(null);
             const [problemResponse, notesResponse] = await Promise.all([
-                axios.get<ProblemDto>(`/api/problems/${problemId}`),
-                axios.get<Note[]>(`/api/problems/${problemId}/notes`)
+                api.get<ProblemDto>(`/problems/${problemId}`),
+                api.get<Note[]>(`/problems/${problemId}/notes`)
             ]);
             setProblem(problemResponse.data);
             setNotes(notesResponse.data);
@@ -42,7 +42,7 @@ export const useProblemDetail = (problemId: number): UseProblemDetailResult => {
 
     const addNote = useCallback(async (content: string) => {
         try {
-            const response = await axios.post<Note>(`/api/problems/${problemId}/notes`, { content });
+            const response = await api.post<Note>(`/problems/${problemId}/notes`, { content });
             setNotes(prev => [...prev, response.data]);
         } catch (err) {
             throw new Error(err instanceof Error ? err.message : 'Failed to add note');

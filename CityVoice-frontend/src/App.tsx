@@ -6,9 +6,9 @@ import { Toaster } from 'react-hot-toast';
 
 const App: React.FC = () => {
     return (
-        <div className="min-h-screen flex flex-col bg-gray-50">
+        <div className="min-h-screen flex flex-col">
             <Navbar />
-            <main className="flex-1 p-4 md:px-8 md:py-6 bg-gray-100">
+            <main className="flex-1 py-10 px-4 sm:px-8">
                 <AppRoutes />
             </main>
             <Footer />

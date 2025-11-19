@@ -15,25 +15,27 @@ const ProblemsMap: React.FC<ProblemsMapProps> = ({ problems, onSelectProblem }) 
     : [44.81, 17.98];
 
   return (
-    <MapContainer center={center as [number, number]} zoom={7} style={{ height: '650px', width: '100%' }}>
-      <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-      {problems.map(problem => (
-        <Marker key={problem.id} position={[problem.latitude, problem.longitude]}>
-          <Popup>
-            <div>
-              <strong>{problem.title}</strong>
-              <p className="mb-2 text-sm text-gray-700">{problem.description}</p>
-              <button
-                className="text-blue-600 underline text-sm"
-                onClick={() => onSelectProblem(problem.id)}
-              >
-                Vidi detalje
-              </button>
-            </div>
-          </Popup>
-        </Marker>
-      ))}
-    </MapContainer>
+    <div className="overflow-hidden rounded-3xl border border-white/60 shadow-soft-xl">
+      <MapContainer center={center as [number, number]} zoom={7} style={{ height: '650px', width: '100%' }}>
+        <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+        {problems.map(problem => (
+          <Marker key={problem.id} position={[problem.latitude, problem.longitude]}>
+            <Popup>
+              <div className="max-w-xs space-y-1 text-sm text-slate-700">
+                <strong className="block text-slate-900">{problem.title}</strong>
+                <p className="text-xs text-slate-500">{problem.description}</p>
+                <button
+                  className="text-xs font-semibold text-blue-600 hover:text-blue-700"
+                  onClick={() => onSelectProblem(problem.id)}
+                >
+                  Vidi detalje
+                </button>
+              </div>
+            </Popup>
+          </Marker>
+        ))}
+      </MapContainer>
+    </div>
   );
 };
 

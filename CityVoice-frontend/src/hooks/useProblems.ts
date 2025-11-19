@@ -1,5 +1,5 @@
 import { useState, useCallback, useEffect } from 'react';
-import axios from 'axios';
+import api from '../api/axios';
 import type { ProblemDto } from '../types/problem';
 
 interface UseProblemsResult {
@@ -18,7 +18,7 @@ export const useProblems = (): UseProblemsResult => {
         try {
             setIsLoading(true);
             setError(null);
-            const response = await axios.get<ProblemDto[]>('/api/problems');
+            const response = await api.get<ProblemDto[]>('/problems');
             // Ensure response.data is an array
             const problemsData = Array.isArray(response.data) ? response.data : [];
             setProblems(problemsData);

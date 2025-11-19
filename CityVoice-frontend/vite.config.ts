@@ -8,7 +8,14 @@ export default defineConfig({
     host: '0.0.0.0',
     port: 5173,
     proxy: {
-      '/api': 'http://192.168.1.74:5088',
+      '/api': {
+        target: 'http://localhost:5088',
+        changeOrigin: true,
+      },
+      '/images': {
+        target: 'http://localhost:5088',
+        changeOrigin: true,
+      },
     },
   },
 })

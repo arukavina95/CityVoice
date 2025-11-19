@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
+import { Routes, Route, Navigate, useLocation, Link } from 'react-router-dom';
 import { LoginForm } from './components/auth/LoginForm';
 import { RegisterForm } from './components/auth/RegisterForm';
 import { ProblemList } from './components/ProblemList';
@@ -30,12 +30,20 @@ const ProtectedRoute: React.FC<ProtectedRouteProps> = ({ children }) => {
 
 // 404 Not Found component
 const NotFound: React.FC = () => (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50">
-        <div className="text-center">
-            <h1 className="text-6xl font-bold text-gray-900">404</h1>
-            <p className="mt-4 text-xl text-gray-600">Page not found</p>
-            <p className="mt-2 text-gray-500">The page you're looking for doesn't exist or has been moved.</p>
-        </div>
+    <div className="mx-auto flex min-h-[60vh] w-full max-w-5xl flex-col items-center justify-center rounded-3xl bg-white/80 px-10 py-16 text-center shadow-soft-xl backdrop-blur">
+        <span className="inline-flex items-center gap-2 rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-blue-600">
+            404 Greška
+        </span>
+        <h1 className="mt-6 text-5xl font-semibold text-slate-900">Stranica nije pronađena</h1>
+        <p className="mt-4 max-w-lg text-sm text-slate-500">
+            Čini se da stranica koju tražite ne postoji ili je premještena. Provjerite URL ili se vratite na početnu stranicu.
+        </p>
+        <Link
+            to="/app/problems"
+            className="mt-6 rounded-full bg-slate-900 px-6 py-3 text-sm font-semibold text-white shadow hover:bg-slate-700"
+        >
+            Povratak na pregled problema
+        </Link>
     </div>
 );
 
@@ -83,14 +91,32 @@ const MapPage: React.FC = () => {
         problemsApi.getAllProblems().then(setProblems);
     }, []);
     return (
-        <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center">
-            <h1 className="text-3xl font-bold mb-6 text-gray-900">Karta prijavljenih problema</h1>
-            <div className="w-full max-w-5xl">
-                {/* Prikazuj mapu samo ako nije otvoren modal */}
-                {!selectedProblemId && (
-                    <ProblemsMap problems={problems} onSelectProblem={setSelectedProblemId} />
-                )}
-            </div>
+        <div className="mx-auto flex w-full max-w-7xl flex-col gap-8">
+            <section className="rounded-3xl bg-white/80 px-6 py-8 shadow-soft-xl backdrop-blur lg:px-12">
+                <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+                    <div>
+                        <span className="inline-flex items-center gap-2 rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-blue-600">
+                            Prostorni uvid
+                        </span>
+                        <h1 className="mt-4 font-display text-3xl font-semibold text-slate-900 sm:text-4xl">
+                            Karta prijavljenih problema
+                        </h1>
+                        <p className="mt-3 max-w-2xl text-sm text-slate-600">
+                            Pregled svih aktivnih lokacija s prijavljenim problemima. Kliknite marker za kratak sažetak
+                            i otvaranje detaljnog pregleda slučaja.
+                        </p>
+                    </div>
+                    <div className="rounded-2xl border border-white/50 bg-white/70 px-6 py-4 text-sm text-slate-600 shadow-inner">
+                        Ukupno prijava na karti:{' '}
+                        <span className="text-lg font-semibold text-slate-900">{problems.length}</span>
+                    </div>
+                </div>
+            </section>
+
+            <section className="rounded-3xl bg-white/80 p-4 shadow-soft-xl backdrop-blur">
+                {!selectedProblemId && <ProblemsMap problems={problems} onSelectProblem={setSelectedProblemId} />}
+            </section>
+
             {selectedProblemId && (
                 <ProblemDetailsModal
                     problemId={selectedProblemId}
