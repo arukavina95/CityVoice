@@ -8,77 +8,40 @@ using CityVoice.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Load ENV VARS
 builder.Configuration.AddEnvironmentVariables();
 
-// Controllers
 builder.Services.AddControllers();
-
-// Swagger (always ON)
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(c =>
+
+builder.Services.AddSwaggerGen(o =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "CityVoice API", Version = "v1" });
-    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
-    {
-        Name = "Authorization",
-        Type = SecuritySchemeType.Http,
-        Scheme = "Bearer",
-        In = ParameterLocation.Header
-    });
+    o.SwaggerDoc("v1", new OpenApiInfo { Title = "CityVoice API", Version = "v1" });
 });
 
-// CORS
 builder.Services.AddCors(o =>
 {
     o.AddPolicy("AllowAll", p =>
         p.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 });
 
-// DB
-builder.Services.AddDbContext<ApplicationDbContext>(opts =>
+builder.Services.AddDbContext<ApplicationDbContext>(opt =>
 {
-    opts.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
+    opt.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
-// Auth
 builder.Services.AddScoped<IAuthService, AuthService>();
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-    .AddJwtBearer(o =>
-    {
-        o.TokenValidationParameters = new TokenValidationParameters
-        {
-            ValidateIssuerSigningKey = true,
-            IssuerSigningKey = new SymmetricSecurityKey(
-                Encoding.UTF8.GetBytes(builder.Configuration["AppSettings:Token"])),
-            ValidateIssuer = false,
-            ValidateAudience = false,
-            ValidateLifetime = true
-        };
-    });
 
 var app = builder.Build();
 
-app.UseCors("AllowAll");
-
-// **MUST HAVE FOR RAILWAY**
 app.UseRouting();
 
-// Swagger
+app.UseCors("AllowAll");
+
 app.UseSwagger();
-app.UseSwaggerUI(c =>
-{
-    c.SwaggerEndpoint("/swagger/v1/swagger.json", "CityVoice API v1");
-});
+app.UseSwaggerUI();
 
-// Authentication
-app.UseAuthentication();
-app.UseAuthorization();
+app.MapGet("/", () => "CityVoice API running");
 
-// Root endpoint (REQUIRED!!!)
-app.MapGet("/", () => "CityVoice API running on Railway");
-
-// MVC controllers
 app.MapControllers();
 
 app.Run();
