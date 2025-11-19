@@ -152,8 +152,8 @@ C:\Users\antun\source\repos\CityVoice\CityVoice\obj\Debug\net8.0\rjsmcshtml.dswa
 C:\Users\antun\source\repos\CityVoice\CityVoice\obj\Debug\net8.0\swae.build.ex.cache
 C:\Users\antun\source\repos\CityVoice\CityVoice-api\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\antun\source\repos\CityVoice\CityVoice-api\bin\Debug\net8.0\appsettings.json
-C:\Users\antun\source\repos\CityVoice\CityVoice-api\bin\Debug\net8.0\CityVoice.staticwebassets.endpoints.json
 C:\Users\antun\source\repos\CityVoice\CityVoice-api\bin\Debug\net8.0\CityVoice.staticwebassets.runtime.json
+C:\Users\antun\source\repos\CityVoice\CityVoice-api\bin\Debug\net8.0\CityVoice.staticwebassets.endpoints.json
 C:\Users\antun\source\repos\CityVoice\CityVoice-api\bin\Debug\net8.0\CityVoice.exe
 C:\Users\antun\source\repos\CityVoice\CityVoice-api\bin\Debug\net8.0\CityVoice.deps.json
 C:\Users\antun\source\repos\CityVoice\CityVoice-api\bin\Debug\net8.0\CityVoice.runtimeconfig.json
@@ -296,10 +296,10 @@ C:\Users\antun\source\repos\CityVoice\CityVoice-api\obj\Debug\net8.0\staticwebas
 C:\Users\antun\source\repos\CityVoice\CityVoice-api\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\antun\source\repos\CityVoice\CityVoice-api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\antun\source\repos\CityVoice\CityVoice-api\obj\Debug\net8.0\swae.build.ex.cache
+C:\Users\antun\source\repos\CityVoice\CityVoice-api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\antun\source\repos\CityVoice\CityVoice-api\obj\Debug\net8.0\CityVoice.csproj.Up2Date
 C:\Users\antun\source\repos\CityVoice\CityVoice-api\obj\Debug\net8.0\CityVoice.dll
 C:\Users\antun\source\repos\CityVoice\CityVoice-api\obj\Debug\net8.0\refint\CityVoice.dll
 C:\Users\antun\source\repos\CityVoice\CityVoice-api\obj\Debug\net8.0\CityVoice.pdb
 C:\Users\antun\source\repos\CityVoice\CityVoice-api\obj\Debug\net8.0\CityVoice.genruntimeconfig.cache
 C:\Users\antun\source\repos\CityVoice\CityVoice-api\obj\Debug\net8.0\ref\CityVoice.dll
-C:\Users\antun\source\repos\CityVoice\CityVoice-api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
