@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CityVoice")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ca780c648244eecadec2debdf1d6a9a2042b575")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ab401c074c60dbf1a3893e66f3a3860b118ab55")]
 [assembly: System.Reflection.AssemblyProductAttribute("CityVoice")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CityVoice")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
